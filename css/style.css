@@ -13,7 +13,31 @@
 img{
   display: block;
   margin: 0 auto;
+  height: 420px;
 
+}
+
+body{
+  background-color: rgb(94, 132, 150);
+  
+}
+
+h1{
+  font-size: 80px;
+}
+
+h2{
+  font-size: 60px;
+  font-family: 'Babylonica', cursive;
+}
+
+h3{
+  font-size: 60px;
+  color: rgb(61, 51, 117)
+}
+
+h4{
+  font-size: 30px;
 }
 
 

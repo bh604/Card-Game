@@ -26,11 +26,11 @@ function drawTwo(){
     let player1Val = convertToNum(data.cards[0].value)
     let player2Val = convertToNum(data.cards[1].value)
     if(player1Val > player2Val){
-      document.querySelector('h3').innerText = 'player 1 wins'
+      document.querySelector('h3').innerText = 'Player 1 wins'
       player1Score += 1
       document.querySelector('#player1Score').innerText = player1Score
     }else if(player1Val < player2Val){
-      document.querySelector('h3').innerText = 'player 2 wins'
+      document.querySelector('h3').innerText = 'Player 2 wins'
       player2Score += 1
       document.querySelector('#player2Score').innerText = player2Score
     }else{
