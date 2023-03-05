@@ -16,14 +16,12 @@ document.querySelector('button').addEventListener('click', drawTwo)
 let player1Score = 0
 let player2Score = 0
 
-const audio = new Audio("CardOnTable");
-const buttons = document.querySelectorAll("button");
+const audio = document.querySelector('#audio');
+document.querySelector('button').addEventListener('click', playAudio)
 
-buttons.forEach(button => {
-  button.addEventListener("click", () => {
-    audio.play();
-  });
-});
+function playAudio() {
+  audio.play()
+}
 
 function drawTwo(){
   const url =`https://www.deckofcardsapi.com/api/deck/${deckId}/draw/?count=2`
