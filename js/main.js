@@ -10,6 +10,8 @@ fetch('https://www.deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1')
         console.log(`error ${err}`)
     });
 
+    
+
 document.querySelector('button').addEventListener('click', drawTwo)
 let player1Score = 0
 let player2Score = 0
