@@ -10,7 +10,7 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-/* html {
+html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
@@ -46,9 +46,9 @@ h4{
 
 .hidden{
   display: none;
-} */
+} 
 
-html {
+/* html {
   font-size: 62.5%;
 }
 
@@ -82,7 +82,7 @@ img {
 
 h3 {
   font-family: 'Pacifico', cursive;
-}
+} */
 
 /******************************************
 /* ADDITIONAL STYLES
