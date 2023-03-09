@@ -28,7 +28,9 @@ body{
 }
 
 h1{
-  font-size: 80px;
+  font-size: 15rem;
+  color: rgb(78, 212, 212);
+  font-family: 'Babylonica', cursive;
 }
 
 h2{
@@ -38,7 +40,8 @@ h2{
 
 h3{
   font-size: 60px;
-  color: rgb(136, 130, 172)
+  color: rgb(136, 130, 172);
+  font-family: 'Pacifico', cursive
 }
 
 h4{
@@ -50,14 +53,18 @@ h4{
 }
 
 button {
-  background-color: rgb(26, 27, 37);
-  color: rgb(136, 141, 190);
+  background-color: rgb(219, 186, 114);
+  color: rgb(19, 3, 3);
   font-size: 3rem;
-  border: 2px solid  rgb(136, 141, 190);
+  border: 2px solid  rgb(183, 192, 51);
 }
 
 button:hover {
-  background-color: rgb(37, 43, 114);
+  background-color: rgb(235, 195, 158);
+}
+
+img {
+  width: 200px;
 }
 
 /* html {
